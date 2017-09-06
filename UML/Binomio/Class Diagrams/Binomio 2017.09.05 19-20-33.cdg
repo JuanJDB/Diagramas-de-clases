@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Binomio">
+  <ClassDiagramComponents>
+    <Class name="Ventana" package="binomio" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="titulo" type="JLabel" visibility="package"/>
+        <Field name="com1" type="JLabel" visibility="package"/>
+        <Field name="com2" type="JLabel" visibility="package"/>
+        <Field name="literal" type="JLabel" visibility="package"/>
+        <Field name="calcu" type="JButton" visibility="package"/>
+        <Field name="signo" type="JTextField" visibility="package"/>
+        <Field name="coeficiente1" type="JTextField" visibility="package"/>
+        <Field name="coeficiente2" type="JTextField" visibility="package"/>
+        <Field name="obtenido" type="JTextField" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="configurar" returnType="void" visibility="public"/>
+        <Method name="elementos" returnType="void" visibility="public"/>
+        <Method name="actionPerformed" returnType="void" visibility="public">
+          <Argument type="ActionEvent" name="e"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Binomio" package="binomio" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
